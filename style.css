@@ -46,6 +46,11 @@ body {
     display: inline-block;
 }
 
+.btn:hover {
+    background-color: rgb(206, 157, 157);
+    transition: background-color 1000ms linear;
+}
+
 .landing-image {
     display: flex;
     background: url(img/photography.jpg) no-repeat center/cover;
